@@ -111,3 +111,78 @@
     background-color: #ffffff;
     box-shadow: 0px -8px 30px 0 rgba(0, 0, 0, 0.34);
   }
+
+  .Board {
+  position: absolute;
+  left:445px;
+  top:436px;
+  }
+
+  .Board1 {
+    position: absolute;
+    left:910px;
+    top:591px;
+    width: 70px;
+    height: 70px;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .Board2 {
+    position: absolute;
+    left:910px;
+    top:667px;
+    width: 70px;
+    height: 70px;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .Board3 {
+    position: absolute;
+    left:910px;
+    top:743px;
+    width: 70px;
+    height: 70px;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .Board4 {
+    position: absolute;
+    left:910px;
+    top:819px;
+    width: 70px;
+    height: 70px;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+ }
+
+ .Board1:hover {
+  border: solid 2px #00b0ff;
+  cursor: pointer;
+ }
+
+ .Board2:hover {
+  border: solid 2px #00b0ff;
+  cursor: pointer;
+ }
+
+ .Board3:hover {
+  border: solid 2px #00b0ff;
+  cursor: pointer;
+ }
+
+ .Board4:hover {
+  border: solid 2px #00b0ff;
+  cursor: pointer;
+ }
+
+    
+
+  .Card1 {
+    position: absolute;
+    top:1200px;
+    left:445px;
+    width: 1030px;
+    height: 600px;
+    object-fit: contain;
+    background-color: #ffffff;
+    box-shadow: 0px -8px 30px 0 rgba(0, 0, 0, 0.34);
+  }
