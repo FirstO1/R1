@@ -269,7 +269,6 @@
   opacity: 0.5;
 }
 .Text2{
-  display:;
   width: 389px;
   height: 160px;
   position: absolute;
@@ -469,15 +468,205 @@ h3{
   opacity: 0.7;
 }
 
-    
+.Team{
+  position: absolute;
+  left:360px;
+  top:2320px;
+  width: 1250px;
+  height: 138px;
+  opacity: 0.03;
+  font-family: Montserrat;
+  font-size: 190px;
+  font-weight: bold;
+  letter-spacing: 19px;
+  color:black;
+}
 
-  .Card1 {
+
+li:first-child{
+  color:#00b0ff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+}
+li:nth-child(2){
+  color:#8c8c8c;
+  font-family: Raleway;
+  font-size: 14px;
+  padding-bottom:15px;
+}
+li:nth-child(4){
+  color:#8c8c8c;
+  font-family: Raleway;
+  font-size: 14px;
+  padding-top:15px;
+}
+
+.Peo1{
+  position: absolute;
+  left:470px;
+  top:2471px;
+  width: 260px;
+  height: 278px;
+  border-radius: 4px;
+  background-color:white;
+  box-shadow: 10px 17.3px 50px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ .Snim1{
+  position: absolute;
+  left:547px;
+  top:2501px;
+  width: 100px;
+  height: 100px;
+ }
+ 
+ .Inf1{
+   position: absolute;
+   left:525px;
+   top:2617px;
+   list-style:none;
+   text-align: center;
+ }
+
+.Peo3{
+  position: absolute;
+  left:950px;
+  top:2471px;
+  width: 260px;
+  height: 278px;
+  border-radius: 4px;
+  background-color:white;
+  box-shadow: 10px 17.3px 50px 0 rgba(0, 0, 0, 0.2);
+ } 
+
+ .Snim3{
+  position: absolute;
+  left:1027px;
+  top:2501px;
+  width: 100px;
+  height: 100px;
+  border-radius:50%;
+ }
+
+ .Inf3{
+   position: absolute;
+   left:1037px;
+   top:2617px;
+   list-style:none;
+   text-align: center;
+   white-space: nowrap;
+ }
+
+
+.Peo2{
+  position: absolute;
+  left:710px;
+  top:2501px;
+  width: 260px;
+  height: 278px;
+  border-radius: 4px;
+  background-color:white;
+  box-shadow: 10px 17.3px 50px 0 rgba(0, 0, 0, 0.2);
+ } 
+
+ .Snim2{
+  position: absolute;
+  left:787px;
+  top:2531px;
+  width: 100px;
+  height: 100px;
+ }
+
+ .Inf2{
+   position: absolute;
+   left:780px;
+   top:2647px;
+   list-style:none;
+   text-align: center;
+   white-space: nowrap;
+ }
+
+.Peo4{
+  position: absolute;
+  left:1190px;
+  top:2501px;
+  width: 260px;
+  height: 278px;
+  border-radius: 4px;
+  background-color:white;
+  box-shadow: 10px 17.3px 50px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ .Snim4{
+  position: absolute;
+  left:1267px;
+  top:2531px;
+  width: 100px;
+  height: 100px;
+  border-radius:50%;
+ }
+ 
+ .Inf4{
+  position: absolute;
+  left:1245px;
+  top:2647px;
+  list-style:none;
+  text-align: center;
+  white-space: nowrap;
+ }
+
+
+.Bleft{
+  position: absolute;
+  left:360px;
+  top:2575px;
+  width: 100px;
+  height: 100px;
+}
+
+.Bright{
+  position: absolute;
+  left:1465px;
+  top:2575px;
+  width: 100px;
+  height: 100px;
+}
+
+
+h4{
+  position: absolute;
+  left:865px;
+  top:2959px;
+  width: 195px;
+  height: 14px;
+  font-family: Montserrat;
+  font-size: 18px;
+  letter-spacing: 2.5px;
+ }
+ .X1{
+   position: absolute;
+   left:954px;
+   top:2992px;
+   width: 13px;
+   height: 13px;
+}
+
+
+
+
+ 
+
+
+
+
+.Card1 {
     position: absolute;
-    top:2500px;
+    top:4000px;
     left:445px;
     width: 1030px;
     height: 600px;
     object-fit: contain;
     background-color: #ffffff;
     box-shadow: 0px -8px 30px 0 rgba(0, 0, 0, 0.34);
-  }
+}
