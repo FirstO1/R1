@@ -3,40 +3,44 @@
    margin: 0;
   }
 
-  .Surfing{
-    position:absolute;
+  
+
+  .wrapper{
+    max-width:1171px ;
+    margin: 0 auto;
+    align-items: center;
   }
 
-  .Flex1{
+  header{
     display: inline-flex;
     width: 100%;
     align-items: center;
-    justify-content:space-evenly;
-    padding-top: 33px;
+    justify-content:space-between;
+    margin-top: 33px;
   }
-
-  .Flex1 a{
-    margin: 0 5px 0 5px;
-  }
-  
-  .Logo {
+ 
+  .logo {
     position: relative;
     object-fit: contain;
   }
 
-  .Menu {
-    font-weight:bold; 
+  .navigation {
+    font-weight:700; 
     position: relative;
     word-spacing: 24px;
   }
-
-  .Menu a {
-    padding: 6px 10px 6px 10px;
-    font-size:14px;
-    font-family:Montserrat;
+  .nav_list{
+    display:inline-flex;
   }
 
-  .Menu a:hover {
+  .navigation li {
+    padding: 6px 10px;
+    font-size:14px;
+    font-family:Montserrat;
+    list-style: none;
+  }
+
+  .navigation li:hover {
     cursor: pointer;
     background-color:#00b0ff;
     color:white;
@@ -44,19 +48,21 @@
     
   }
 
-.nav img{
+.nav_img png{
   height: 36px;
   width: 36px;
-  margin: 0 3px 0 3px;
   border-radius:50%;
   position: relative;
   background-color: black;
 }
      
-  h1 {
+  .section2{
+    margin-top:149px;
+    text-align:center;
+  }
+
+  .title {
   position: relative;
-  padding-top:183px;
-  text-align: center;
   font-family: Playfair Display;
   font-size: 48px;
   font-style: italic;
@@ -64,21 +70,20 @@
     
   } 
   
-  h2 {
+  .under_title {
   position: relative;
-  padding-top: 12px;
+  margin-top: 12px;
   font-family: Playfair Display;
   font-size: 22px;
   font-style: italic;
-  text-align:center;
   color: #ffffff;
   text-shadow: 0px 3px 15px rgba(0, 0, 0, 0.64);
   }      
 
-  .Card {
+  .card {
     display: flex;
     position: relative;
-    margin: 78px auto;
+    margin: 150px auto;
     width: 1030px;
     height: 600px;
     object-fit: contain;
@@ -86,13 +91,11 @@
     box-shadow: 0px -8px 30px 0 rgba(0, 0, 0, 0.34);
   }
 
-
-  .Board {
+  .board {
     position: relative;
-    object-fit: contain;
   }
 
-  .BoardImgs{
+  .board_imgs{
     display: flex;
     position: relative;
     margin-left: -35px;
@@ -103,18 +106,18 @@
     top:25%;
   }
 
-  .Board1 {
+  .board1 {
     width:  70px;
     height: 70px;
     border: solid 1px rgba(0, 0, 0, 0.2);
    }
 
-   .Board1:hover {
-  border: solid 2px #00b0ff;
+   .board1:hover {
+  border: solid 1px #00b0ff;
   cursor: pointer;
   }
 
-  .BoardText{
+  .card_text{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -122,9 +125,7 @@
     padding-top: 45px;
   }
 
- .Text1{
-   width: 329px;
-   height: 44px;
+ .card_title{
    position: relative;
    font-family: Montserrat;
    font-size: 21px;
@@ -132,33 +133,11 @@
    line-height: 1.3;
  }
 
- .Description{
-   position: relative;
-   font-family: Raleway;
-   font-size: 14px;
-   font-weight: bold;
-   letter-spacing: 0.7px;
-   color: #a0a0a0;
-   background-color:white;
-   border:hidden;
-   margin: 68px 28px 0 0;
-   
-   }
-    .Description:focus{
-    outline:none;
-    color: black;
-    border-bottom: solid 3px #00b0ff;
-    cursor: pointer;
-    transition:0.07s;
-  
-     }
-     .Description:hover{
-      cursor: pointer;
-    }
-    .Description:active .Text2{
-      display:inline;
-    }
- .Features{
+ .card_buttons{
+   margin-top:68px;
+ }
+
+ .description{
    position: relative;
    font-family: Raleway;
    font-size: 14px;
@@ -168,17 +147,42 @@
    background-color:white;
    border:hidden;
    margin: 0 28px 0 0;
-   }.Features:focus{
+   border-bottom: solid 3px transparent;
+   }
+    .description:focus{
+    outline:none;
+    color: black;
+    border-bottom: solid 3px #00b0ff;
+    cursor: pointer;
+    transition:0.07s;
+  
+     }
+     .description:hover{
+      cursor: pointer;
+    }
+   
+ .features{
+   position: relative;
+   font-family: Raleway;
+   font-size: 14px;
+   font-weight: bold;
+   letter-spacing: 0.7px;
+   color: #a0a0a0;
+   background-color:white;
+   border:hidden;
+   margin: 0 28px 0 0;
+   border-bottom: solid 3px transparent;
+   }.features:focus{
     outline:none;
     color: black;
     border-bottom: solid 3px #00b0ff;
     cursor: pointer;
     transition:0.07s; 
    }
-   .Features:hover{
+   .features:hover{
    cursor: pointer;
    }
-.Dimensions{
+.dimensions{
   position: relative;
   font-family: Raleway;
   font-size: 14px;
@@ -187,28 +191,28 @@
   color: #a0a0a0;
   background-color:white;
   border:hidden;
-  
+  border-bottom: solid 3px transparent;
  }
- .Dimensions:focus{
+ .dimensions:focus{
   outline:none;
   color: black;
   border-bottom: solid 3px #00b0ff;
   cursor: pointer;
   transition:0.07s;
  }
- .Dimensions:hover{
+ .dimensions:hover{
    cursor: pointer;
  } 
 
-.Hr{
+.hr{
   position: relative;
   width: 396px;
   height: 1px;
   opacity: 0.5;
   background-color: #a0a0a0;
 }
-.Text2{
-  padding-top: 28px;
+.card_article{
+  margin-top: 28px;
   width: 389px;
   height: 160px;
   position: relative;
@@ -225,15 +229,15 @@
  align-items:center;
 }
 
-.Price{
+.price{
   position: relative;
   font-family: Montserrat;
   font-size: 24px;
-  font-weight: bold;
-  border-bottom:5px;
+  font-weight: bolder;
 }
 
-.Buy {
+.buy_button {
+  margin-top: 2.5px;
   margin-left: 29px;
   font-weight: bold;
   font-family: Montserrat;
@@ -248,10 +252,9 @@
   cursor: pointer;
   padding-left: 31px;
   padding-top: 14px;
-  margin-top: 2.5px;
 }
 
-.View{
+.view{
   font-weight:bold;
   text-decoration: none;
   width: 113px;
@@ -265,10 +268,12 @@
   margin-top: 70px;
 }
 
-.BOARDS{
+.card_opacity{
   writing-mode: vertical-rl;
   text-orientation:mixed;
   position: absolute;
+  top:-13px;
+  right:-35px;
   width: 119px;
   height: 600px;
   opacity: 0.03;
@@ -276,25 +281,26 @@
   font-weight: bold;
   color:black;
   font-size: 138.5px;
-  
+ z-index: 1; 
 }
 
-.Prev{
+.prev{
  position: absolute;
- left:1437px;
- top:486px; 
+ right:0px;
+ top:50px; 
+ z-index:2;
 }
 
-.Next{
+.next{
   position: absolute;
-  left:1475px;
-  top:486px;
+  right:-38px;
+  top:50px;
 }
 
-.List{
+.list{
   position: absolute;
-  left:1422px;
-  top:524px;
+  right:0px;
+  top:88px;
   padding:9px 9px 9px 9px;
   background-color: black;
   color: white;
@@ -303,10 +309,12 @@
   letter-spacing: -0.6px;
 }
 
-.ABOUT{
-  position: absolute;
-  left:379px;
-  top:1140px;
+.section3{
+  margin-top: 176px;
+}
+
+.about_opacity{
+  position:relative;
   width: 1210px;
   height: 143px;
   opacity: 0.03;
@@ -316,77 +324,80 @@
   letter-spacing: 19.6px;
 }
 
-.Con{
-  position: absolute;
-  top:1333px;
-  width: 1920px;
-  height: 640px;
-  object-fit: contain;
-}
 
-.TextB{
+.text_container{
+  display: block;
   position: absolute;
-  top:1625px;
+  margin-top: 280px;
   width: 945px;
   height: 530px;
-  object-fit: contain;
+  left: 0;
   background-color:white;
+  text-align: right;
 }
 
-h3{
-  position: absolute;
-  left:544px;
-  top:1728px;
+.section3_text{
+  position: relative;
+  display:block;
+  margin-top: 30px;
+}
+
+.section3_h{
+  position: relative;
   font-family: Montserrat;
   font-size: 18px;
-  letter-spacing: 2.5px; 
+  letter-spacing: 2.5px;
+  margin-top: 100px;
+  margin-right: 155px;
 }
 
-.X{
-  position: absolute;
-  left:654px;
-  top:1762px;
+.section3_x{
+  position: relative;
   width: 13px;
   height: 13px;
   object-fit: contain;
+  margin-top: 10px;
+  margin-right: 278px;
 }
 
-.Text3{
-  position: absolute;
-  left:495px;
-  top:1809px;
+.section3_description{
+  display: block;
+  position: relative;
   width: 341px;
   height: 288px;
   font-family: PlayfairDisplay;
   font-size: 22px;
   font-style: italic;
   line-height: 1.73;
+  margin-left: auto;
+  text-align:left;
+  margin-right: 107px;
+  margin-bottom: 33px;
 }
 
-.Read{
+.read_button{
   font-weight:bold;
   text-decoration: none;
   width: 83px;
   height: 14px;
   font-family: Montserrat;
   font-size: 15px;
-  position: absolute;
-  left:495px;
-  top:2130px;
+  position: relative;
   color: #00b0ff;
   border-bottom: solid 2px #00b0ff;
-  padding-bottom: 5px; 
+  padding-bottom: 5px;
+  margin-right:368px;
 }
 
-.Clip{
-  position: absolute;
-  left:1015px;
-  top:1893px;
+.clip{
+  position: relative;
   width: 500px;
   height: 300px;
   object-fit: contain;
   opacity: 0.1;
-  background-color:aqua; 
+  background-color:aqua;
+  margin-top: 500px;
+  margin-left: 1015px;
 }
 
 .Play{
@@ -422,25 +433,6 @@ h3{
   color:black;
 }
 
-
-li:first-child{
-  color:#00b0ff;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: bold;
-}
-li:nth-child(2){
-  color:#8c8c8c;
-  font-family: Raleway;
-  font-size: 14px;
-  padding-bottom:15px;
-}
-li:nth-child(4){
-  color:#8c8c8c;
-  font-family: Raleway;
-  font-size: 14px;
-  padding-top:15px;
-}
 
 .Peo1{
   position: absolute;
