@@ -537,21 +537,233 @@
   padding-top:15px;
 }
 
+.section4_titles{
+  text-align: center;
+}
 
-h4{
-  position: absolute;
-  left:865px;
-  top:2959px;
-  width: 195px;
-  height: 14px;
+.section4_h{
+  position: relative;
+  margin-top: 180px;
   font-family: Montserrat;
   font-size: 18px;
   letter-spacing: 2.5px;
  }
- .X1{
-   position: absolute;
-   left:954px;
-   top:2992px;
+ .section4_x{
+   position: relative;
+   margin-top: 20px;
    width: 13px;
    height: 13px;
 }
+
+.section4_info{
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+  height: 344px;
+ }
+
+ .info1{
+  position: relative;
+  display: flex;
+  width: 270px;
+  height: 344px;
+ }
+  .info1_p{
+    margin:230px 0 0 25px;
+    position:absolute;
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #787878;
+  }
+
+ .info2{
+  position: relative;
+  display: flex;
+  margin: 0 30px;
+  width: 270px;
+  height: 344px;
+ }
+  .info2_p{
+    margin:230px 0 0 25px;
+    position:absolute;
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #787878;
+  }
+
+ .info3{
+  position: relative;
+  display: flex;
+  width: 270px;
+  height: 344px;
+ }
+  .info3_p{
+    margin:230px 0 0 25px;
+    position:absolute;
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #787878;
+  }
+
+ .info_img{
+  width: 270px;
+  height: 203px;
+}
+
+.section4{
+  display:flex;
+  justify-content: center;
+}
+
+.view_button{
+  position: absolute;
+  display:flex;
+  margin-top:420px;
+  text-decoration: none;
+  background-color: #00b0ff;
+  padding:16px 30px;
+  color:white;
+  font-weight: bold;
+  font-family: Montserrat;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+}
+
+.section4_info div:hover{
+  box-shadow: 0px 2px 30px 0 rgba(0, 0, 0, 0.2);
+ }
+ .section4_info div:hover p{
+  color:#0022ff;
+}
+
+.section_final{
+  display:inline-flex;
+}
+
+.insta{
+  margin-top:262px;
+  opacity: 0.03;
+  font-family: Montserrat;
+  font-size: 90px;
+  font-weight: bolder;
+  letter-spacing: 9px;
+  z-index: 1;
+}
+
+.insta_png{
+  height: 620px;
+  width: 620px;
+  margin-top: -21px;
+}
+
+.insta_png img{
+  float: left;
+}
+
+.section_facebook{
+  width: 440px;
+  height: 348px;
+  margin-top: 404px;
+  margin-left: 50px;
+  background-image: url(bg.png)
+ }
+ .logo-facebook{
+   margin-left: 144px;
+   margin-top: 31px;
+ }
+ .surfers_co{
+   width: 340px;
+   height: 130px;
+   display: flex;
+   flex-direction: column;
+   margin-left: 50px;
+   margin-top: 15px;
+   background-image: url(cover.jpg)
+ }
+ .surfers_co_first{
+   display: inline-flex;
+   height: 87px;
+ }
+ .co_logo{
+   height: 69px;
+   width: 69px;
+ }
+ .co_logo_text{
+  position: absolute;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  color:white;
+   
+ }
+ .section_co_logo{
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   height: 69px;
+   width: 69px;
+ }
+ .surfers_co_text{
+   margin-top: 10px;
+   text-shadow: 1px 1.7px 6px rgba(0, 0, 0, 0.62);
+   font-family: Montserrat;
+   font-size: 13px;
+   color:white;
+   font-weight: 600;
+ }
+
+ .surfers_co_second{
+   display: inline-flex;
+ }
+
+ .like_button{
+  margin-left: 9px;
+  margin-top: 11px;
+ }
+
+ .share_button{
+   margin-left: 159px;
+   margin-top:11px;
+}
+
+.surfers_friends{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  width: 340px;
+  height: 85px;
+  background-color:#e9ebee;
+ }
+
+ .surfers_users{
+  display: flex;
+  flex-direction: column;
+  width: 322px;
+  height: 67px;
+  box-shadow: 0px 1px 4px 0 rgba(0, 0, 0, 0.13);
+ }
+
+ .users_text{
+  margin-left: 8px;
+  margin-top: 4px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  color: #4b4f56;
+ }
+
+ .users_png{
+  width: 304px;
+  height: 32px;
+  margin-left:8px;
+  margin-top: 4px;
+ }
+
+
+
