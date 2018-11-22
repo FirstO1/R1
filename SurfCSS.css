@@ -641,7 +641,7 @@
 }
 
 .section_final{
-  display:inline-flex;
+  display:flex
 }
 
 .insta{
@@ -662,6 +662,44 @@
 
 .insta_png img{
   float: left;
+}
+
+.insta_footer{
+  display: inline-flex;
+  width: 620px;
+  height: 70px;
+  background-color:white;
+  align-items: center;
+}
+
+.insta_footer img{
+  width: 33px;
+  height: 33px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.insta_follow{
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: condensed;
+  color: #00b0ff;
+  margin-right: 20px;
+}
+
+.insta_surfers{
+  font-family: Raleway;
+  font-size: 16px;
+  color: #000000;
+}
+
+.insta_text{
+  color:#4d4d4d;
+  margin-top:27px;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 .section_facebook{
@@ -764,6 +802,52 @@
   margin-left:8px;
   margin-top: 4px;
  }
+ 
+.footer{
+  margin-top: -225px;
+  width: 1920px;
+  height: 420px;
+  background-color:black;
+}
 
+.footer_links{
+  width: 250px;
+  font-family: Raleway;
+  line-height: 2.43;
+  font-size: 14px;
+  column-count: 2;
+  column-gap: 100px;
+  margin-left:1073px;
+  color: #ffffff;
+}
 
+.footer_text{
+  margin-top: 130px;
+  margin-left: 1073px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+}
 
+.footer_email{
+  display: inline-flex;
+  margin-left: 1073px;
+  margin-top:20px; 
+  align-items: center;
+}
+
+.your_email{
+  color:#4d4d4d;
+  font-family: Raleway;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 175px;
+}
+
+.br_email{
+  background-color:#4d4d4d;
+  margin-left: 1073px;
+  margin-top: 10px;
+  width: 304px;
+  height: 1px;
+}
