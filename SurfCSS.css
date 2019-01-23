@@ -101,7 +101,6 @@
     margin-left: -35px;
     flex-direction: column;
     height: 297px;
-    width: 70px;
     justify-content: space-between;
     top:25%;
   }
@@ -214,7 +213,6 @@
 .card_article{
   margin-top: 28px;
   width: 389px;
-  height: 160px;
   position: relative;
   font-family: Raleway;
   font-size: 16px;
@@ -315,8 +313,6 @@
 
 .about_opacity{
   position:relative;
-  width: 1210px;
-  height: 143px;
   opacity: 0.03;
   font-family: Montserrat;
   font-size: 196px;
@@ -364,7 +360,6 @@
   display: block;
   position: relative;
   width: 341px;
-  height: 288px;
   font-family: PlayfairDisplay;
   font-size: 22px;
   font-style: italic;
@@ -396,11 +391,12 @@
   object-fit: contain;
   opacity: 0.1;
   background-color:aqua;
-  margin-top: 500px;
+  margin-top: 400px;
   margin-left: 1015px;
+  margin-bottom: 300px;
 }
 
-.Play{
+.play{
   position: absolute;
   left:1220px;
   top:1998px;
@@ -409,7 +405,7 @@
   object-fit: contain;
 }
 
-.Cir{
+.cir{
   position: absolute;
   left:1195px;
   top:1973px;
@@ -421,8 +417,6 @@
 
 .Team{
   position: relative;
-  width: 1250px;
-  height: 138px;
   opacity: 0.03;
   font-family: Montserrat;
   font-size: 190px;
@@ -437,6 +431,7 @@
   width: 1171px;
   height: 308px;
   justify-content: center;
+  margin-top: -100px;
 }
 
 .staff1{
@@ -450,7 +445,7 @@
   box-shadow: 10px 17.3px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
-  .staff1_inf{
+  .staff_inf{
     list-style:none;
     margin: auto;
     text-align: center;
@@ -468,11 +463,7 @@
   box-shadow: 10px 17.3px 50px 0 rgba(0, 0, 0, 0.2);
   z-index: 2;
 }
-  .staff2_inf{
-    list-style:none;
-    margin: auto;
-    text-align: center;
-}
+  
 
 .staff3{
   position: relative;
@@ -484,13 +475,7 @@
   background-color:white;
   box-shadow: 10px 17.3px 50px 0 rgba(0, 0, 0, 0.2);
   z-index:1
-}
-  .staff3_inf{
-    list-style:none;
-    margin: auto;
-    text-align: center;
-  }
-
+ }
   .photo{
     border-radius: 50%;
 }
@@ -506,13 +491,7 @@
   background-color:white;
   box-shadow: 10px 17.3px 50px 0 rgba(0, 0, 0, 0.2);
   z-index: 3;
-}
-  .staff4_inf{
-    list-style:none;
-    margin: auto;
-    text-align: center;
-  }
-
+ }
   .photo1{
     border-radius: 50%;
 }
@@ -617,12 +596,13 @@
 .section4{
   display:flex;
   justify-content: center;
+  height: 480px;
 }
 
 .view_button{
   position: absolute;
   display:flex;
-  margin-top:420px;
+  align-self:flex-end;
   text-decoration: none;
   background-color: #00b0ff;
   padding:16px 30px;
@@ -703,6 +683,9 @@
 }
 
 .section_facebook{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 440px;
   height: 348px;
   margin-top: 404px;
@@ -710,8 +693,7 @@
   background-image: url(bg.png)
  }
  .logo-facebook{
-   margin-left: 144px;
-   margin-top: 31px;
+  margin-top: 31px;
  }
  .surfers_co{
    width: 340px;
